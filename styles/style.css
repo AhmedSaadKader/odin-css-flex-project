@@ -12,19 +12,23 @@ body {
     height: 100vh;
 }
 
-.header {
+.hero {
     flex: auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
+    font-size: 24px;
+
     /* gap: 16px; */
 }
 
 a {
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
     padding: 10px;
+    font-size: 18px;
 }
 
 .content-one {

@@ -14,9 +14,7 @@ body {
 }
 
 .hero {
-    flex: 1 1 auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
@@ -25,14 +23,6 @@ body {
 
 .hero * {
     margin: auto
-}
-
-.hero-logo {
-    margin: auto;
-}
-
-.link-one {
-    margin-left: auto;
 }
 
 a {
@@ -44,9 +34,7 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     padding: 10px;
     background-color: #1f2937;
 }
@@ -55,7 +43,6 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     width: 300px;
     color: #f9faf8;
